@@ -1,7 +1,7 @@
 <template>
-  <header class="sticky top-0 z-30 flex justify-center py-2">
+  <header class="sticky bg-black top-0 z-30 flex justify-center py-2">
     <div
-      class="sm:w-full lg:mx-5 lg:w-10/12 xl:w-10/12 sm:relative lg:static pb-2 flex justify-between"
+      class="sm:w-full lg:mx-5 xl:mx-0 lg:w-full xl:w-[85%] sm:relative lg:static pb-2 flex justify-between"
     >
       <div class="mt-3 grid md:flex lg:justify-evenly">
         <div class="w-36 lg:mt-1">
@@ -11,12 +11,13 @@
             alt=""
           />
         </div>
+
         <ul
-          class="text-white sm:absolute lg:static sm:top-[71px] sm:left-3 lg:top-0 flex gap-7"
+          class="text-white sm:border-t-[0.5px] lg:border-none sm:bg-black w-full sm:absolute lg:static sm:top-[64px] sm:py-1 lg:top-0 flex gap-7"
         >
           <li class="font-semibold cursor-pointer text-[14px]">
             <button
-              class="bg-[#202020] text-[#FAD810] py-1.5 sm:mt-2 lg:mt-1 px-2 rounded-lg"
+              class="bg-[#202020] text-[#FAD810] py-1.5 sm:mx-3 sm:mt-2 lg:mt-1 px-2 rounded-lg"
             >
               Beranda
             </button>
@@ -81,6 +82,6 @@
 }
 
 header {
-  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 10%);
 }
 </style>

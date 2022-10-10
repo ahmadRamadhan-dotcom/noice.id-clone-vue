@@ -1,0 +1,67 @@
+<template>
+  <div class="flex justify-center sm:mt-16 lg:mt-6">
+    <div
+      class="sm:w-[85%] md:w-[95%] xl:w-[85%] sm:bg-[#141414] lg:bg-[#202020] sm:pt-6 sm:pb-5 md:pt-4 md:pb-4 lg:pt-16 lg:pb-14 rounded-xl flex justify-center"
+    >
+      <div
+        class="sm:grid sm:place-content-center sm:place-items-center lg:flex w-[88%] lg:justify-center md:items-center"
+      >
+        <div
+          class="sm:grid sm:place-content-center sm:place-items-center sm:text-center lg:text-left lg:grid lg:place-content-start lg:place-items-start"
+        >
+          <h1 class="text-white font-bold text-[34px]">
+            Rumah Konten Audio Indonesia
+          </h1>
+          <h2
+            class="text-[#d6d6d6] text-[16px] mt-2 sm:w-[95%] lg:w-[95%] break-words"
+          >
+            Nikmati ragam Podcast, Radio, Audiobook, dan Original Series yang
+            seru dalam satu aplikasi konten audio karya anak bangsa.
+          </h2>
+          <button
+            href="#_"
+            class="relative sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-4 sm:w-[56%] md:w-[40%] lg:w-[58%] font-bold bg-[#FAD810] text-[#212529]"
+          >
+            <span class="absolute right-8">
+              <svg
+                class="w-4 h-4 text-black"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                ></path>
+              </svg>
+            </span>
+
+            <span
+              class="relative w-full text-left text-sm uppercase tracking-[0.2em]"
+              >dengar sekarang</span
+            >
+          </button>
+          <p class="sm:hidden lg:block text-[#d6d6d6] mt-8">Tersedia juga di</p>
+          <div class="sm:hidden lg:flex xl:flex gap-1 mt-7">
+            <a
+              href="https://play.google.com/store/apps/details?id=noice.app"
+              target="_blank"
+            >
+              <img src="../assets/google-play-icon.svg" class="h-12" alt="" />
+            </a>
+            <a
+              href="https://apps.apple.com/us/app/noice-radio-music-podcast/id1484372791?ls=1"
+              target="_blank"
+            >
+              <img src="../assets/appstore-icon.svg" class="h-12" alt="" />
+            </a>
+          </div>
+        </div>
+        <img src="../assets/home-1.png" alt="" class="lg:w-6/12 xl:w-full" />
+      </div>
+    </div>
+  </div>
+</template>
