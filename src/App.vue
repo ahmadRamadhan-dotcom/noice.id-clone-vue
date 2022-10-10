@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div class="app h-[1000px]">
     <Navbar />
   </div>
 </template>

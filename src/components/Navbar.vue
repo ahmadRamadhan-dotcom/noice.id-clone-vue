@@ -1,29 +1,86 @@
 <template>
-  <div class="flex justify-center py-2">
-    <div class="w-10/12 flex justify-between">
-      <div class="mt-5 flex gap-10">
-        <img
-          class="w-28"
-          src="https://www.noice.id/wp-content/themes/zerif-lite/images/logo.svg"
-          alt=""
-        />
-        <ul class="text-white flex mt-3 gap-8">
-          <li
-            class="font-semibold text-[14px] rounded-md bg-[#202020] text-[#FAD810]"
-          >
-            Beranda
+  <header class="sticky top-0 z-30 flex justify-center py-2">
+    <div
+      class="sm:w-full lg:mx-5 lg:w-10/12 xl:w-10/12 sm:relative lg:static pb-2 flex justify-between"
+    >
+      <div class="mt-3 grid md:flex lg:justify-evenly">
+        <div class="w-36 lg:mt-1">
+          <img
+            class="w-28 sm:absolute lg:static sm:left-3 sm:top-3"
+            src="https://www.noice.id/wp-content/themes/zerif-lite/images/logo.svg"
+            alt=""
+          />
+        </div>
+        <ul
+          class="text-white sm:absolute lg:static sm:top-[71px] sm:left-3 lg:top-0 flex gap-7"
+        >
+          <li class="font-semibold cursor-pointer text-[14px]">
+            <button
+              class="bg-[#202020] text-[#FAD810] py-1.5 sm:mt-2 lg:mt-1 px-2 rounded-lg"
+            >
+              Beranda
+            </button>
           </li>
-          <li class="font-semibold text-[14px]">Tentang Noice</li>
-          <li class="font-semibold text-[14px]">Info Terbaru</li>
-          <li class="font-semibold text-[14px]">Noicemaker Studio</li>
-          <li class="font-semibold text-[14px]">Iklan</li>
+          <li
+            class="font-semibold sm:mt-4 lg:mt-[10px] dropdown cursor-pointer text-[14px]"
+          >
+            Tentang Noice
+          </li>
+          <li
+            class="font-semibold sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+          >
+            Info Terbaru
+          </li>
+          <li
+            class="font-semibold sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+          >
+            Noicemaker Studio
+          </li>
+          <li
+            class="font-semibold sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+          >
+            Iklan
+          </li>
         </ul>
       </div>
+
       <button
-        class="text-[.8rem] uppercase mt-6 py-2 px-5 rounded-md bg-white font-bold"
+        class="text-[.8rem] leading-9 flex place-items-center uppercase sm:mt-3 sm:mr-2 px-3 rounded-md bg-[#f8f9fa] font-bold"
       >
-        putar konten
+        <font-awesome-icon
+          class="bg-transparent mr-5 sm:hidden lg:block"
+          icon="fa-solid fa-play"
+        />
+        <span
+          class="bg-[#f8f9fa] tracking-[2px] sm:hidden lg:block text-[#212529]"
+        >
+          putar konten
+        </span>
+        <span class="bg-[#f8f9fa] tracking-[2px] lg:hidden text-[#212529]">
+          kunjungi app
+        </span>
       </button>
     </div>
-  </div>
+  </header>
 </template>
+
+<style scoped>
+.fas {
+  font-family: "Font-Awesome 5 Free";
+}
+
+.dropdown::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+header {
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.1);
+}
+</style>
