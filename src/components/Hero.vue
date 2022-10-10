@@ -65,7 +65,7 @@
         <img
           src="../assets/home-1.png"
           alt=""
-          class="mt-6 sm:mt-0 lg:w-6/12 xl:w-full"
+          class="mt-6 sm:mt-0 lg:w-full xl:w-full"
           title="Banner Header"
         />
       </div>
