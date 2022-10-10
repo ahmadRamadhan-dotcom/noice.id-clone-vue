@@ -1,19 +1,19 @@
 <template>
   <header class="sticky bg-black top-0 z-30 flex justify-center py-2">
     <div
-      class="sm:w-full lg:mx-5 xl:mx-0 lg:w-full xl:w-[85%] sm:relative lg:static pb-2 flex justify-between"
+      class="w-full sm:w-full lg:mx-5 xl:mx-0 lg:w-full xl:w-[85%] relative sm:relative lg:static pb-2 flex justify-between"
     >
       <div class="mt-3 grid md:flex lg:justify-evenly">
         <div class="w-36 lg:mt-1">
           <img
-            class="w-28 sm:absolute lg:static sm:left-3 sm:top-3"
+            class="w-28 absolute sm:absolute lg:static left-3 top-3 sm:left-3 sm:top-3"
             src="https://www.noice.id/wp-content/themes/zerif-lite/images/logo.svg"
             alt=""
           />
         </div>
 
         <ul
-          class="text-white sm:border-t-[0.5px] lg:border-none sm:bg-black w-full sm:absolute lg:static sm:top-[64px] sm:py-3 md:py-0 lg:top-0 flex gap-7"
+          class="text-white border-t-[0.5px] sm:border-t-[0.5px] lg:border-none overflow-auto bg-black sm:bg-black w-full absolute sm:absolute lg:static top-[64px] sm:top-[64px] py-2 sm:py-3 md:py-0 lg:top-0 flex gap-7"
         >
           <li class="font-semibold cursor-pointer text-[14px]">
             <button
@@ -46,26 +46,42 @@
       </div>
 
       <button
-        class="text-[.8rem] leading-9 flex place-items-center uppercase sm:mt-3 sm:mr-2 px-3 rounded-md bg-[#f8f9fa] font-bold"
+        class="text-[.8rem] leading-9 flex place-items-center uppercase mt-3 mr-2 sm:mt-3 sm:mr-2 px-3 rounded-md bg-[#f8f9fa] font-bold"
       >
         <font-awesome-icon
-          class="bg-transparent mr-5 sm:hidden lg:block"
+          class="bg-transparent icon mr-5"
           icon="fa-solid fa-play"
         />
-        <span
-          class="bg-[#f8f9fa] tracking-[2px] sm:hidden lg:block text-[#212529]"
-        >
+        <span class="bg-[#f8f9fa] hide tracking-[2px] text-[#212529]">
           putar konten
         </span>
-        <span class="bg-[#f8f9fa] tracking-[2px] lg:hidden text-[#212529]">
-          kunjungi app
-        </span>
+        <span class="bg-[#f8f9fa] lg-hide text-[#212529]"> kunjungi app </span>
       </button>
     </div>
   </header>
 </template>
 
 <style scoped>
+@media screen and (max-width: 1024px) {
+  .hide {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hide {
+    display: block;
+  }
+  .icon {
+    display: block;
+  }
+  .lg-hide {
+    display: none;
+  }
+}
 .fas {
   font-family: "Font-Awesome 5 Free";
 }

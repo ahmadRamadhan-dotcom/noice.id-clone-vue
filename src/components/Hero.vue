@@ -1,15 +1,15 @@
 <template>
-  <div class="flex justify-center sm:mt-16 lg:mt-6">
+  <div class="flex justify-center mt-16 sm:mt-16 lg:mt-6">
     <div
-      class="sm:w-[85%] md:w-[95%] xl:w-[85%] sm:bg-[#141414] lg:bg-[#202020] sm:pt-6 sm:pb-5 md:pt-4 md:pb-4 lg:pt-16 lg:pb-14 rounded-xl flex justify-center"
+      class="sm:w-[85%] md:w-[95%] xl:w-[85%] bg-[#141414] sm:bg-[#141414] lg:bg-[#202020] pb-8 sm:pt-6 sm:pb-5 md:pt-4 md:pb-4 lg:pt-16 lg:pb-14 sm:rounded-xl flex justify-center"
     >
       <div
-        class="sm:grid sm:place-content-center sm:place-items-center lg:flex w-[88%] lg:justify-center md:items-center"
+        class="grid place-content-center text-center sm:grid sm:place-content-center sm:place-items-center lg:flex w-[88%] lg:justify-center md:items-center"
       >
         <div
           class="sm:grid sm:place-content-center sm:place-items-center sm:text-center lg:text-left lg:grid lg:place-content-start lg:place-items-start"
         >
-          <h1 class="text-white font-bold text-[34px]">
+          <h1 class="mt-7 sm:mt-0 text-white font-bold text-[34px]">
             Rumah Konten Audio Indonesia
           </h1>
           <span
@@ -20,9 +20,9 @@
           </span>
           <button
             href="#_"
-            class="relative sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-4 sm:w-[56%] md:w-[40%] lg:w-[58%] xl:w-[53%] font-bold bg-[#FAD810] text-[#212529]"
+            class="relative mt-4 sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-10 sm:pl-4 w-10/12 mx-7 sm:mx-0 sm:w-[56%] md:w-[40%] lg:w-[58%] xl:w-[53%] font-bold bg-[#FAD810] text-[#212529]"
           >
-            <span class="absolute right-8">
+            <span class="absolute right-7 sm:right-8">
               <svg
                 class="w-4 h-4 text-black"
                 fill="none"
@@ -44,8 +44,10 @@
               >dengar sekarang</span
             >
           </button>
-          <p class="sm:hidden lg:block text-[#d6d6d6] mt-8">Tersedia juga di</p>
-          <div class="sm:hidden lg:flex xl:flex gap-1 mt-7">
+          <p class="hidden sm:hidden lg:block text-[#d6d6d6] mt-8">
+            Tersedia juga di
+          </p>
+          <div class="hidden sm:hidden lg:flex xl:flex gap-1 mt-7">
             <a
               href="https://play.google.com/store/apps/details?id=noice.app"
               target="_blank"
@@ -63,7 +65,7 @@
         <img
           src="../assets/home-1.png"
           alt=""
-          class="lg:w-6/12 xl:w-full"
+          class="mt-6 sm:mt-0 lg:w-6/12 xl:w-full"
           title="Banner Header"
         />
       </div>
