@@ -13,7 +13,7 @@
         </div>
 
         <ul
-          class="text-white sm:border-t-[0.5px] lg:border-none sm:bg-black w-full sm:absolute lg:static sm:top-[64px] sm:py-1 lg:top-0 flex gap-7"
+          class="text-white sm:border-t-[0.5px] lg:border-none sm:bg-black w-full sm:absolute lg:static sm:top-[64px] sm:py-3 md:py-0 lg:top-0 flex gap-7"
         >
           <li class="font-semibold cursor-pointer text-[14px]">
             <button
