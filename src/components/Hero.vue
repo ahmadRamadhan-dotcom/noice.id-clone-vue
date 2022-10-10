@@ -12,12 +12,12 @@
           <h1 class="text-white font-bold text-[34px]">
             Rumah Konten Audio Indonesia
           </h1>
-          <h2
+          <span
             class="text-[#d6d6d6] text-[16px] mt-2 sm:w-[95%] lg:w-[95%] xl:w-[80%] break-words"
           >
             Nikmati ragam Podcast, Radio, Audiobook, dan Original Series yang
             seru dalam satu aplikasi konten audio karya anak bangsa.
-          </h2>
+          </span>
           <button
             href="#_"
             class="relative sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-4 sm:w-[56%] md:w-[40%] lg:w-[58%] xl:w-[53%] font-bold bg-[#FAD810] text-[#212529]"
