@@ -13,14 +13,14 @@
             Rumah Konten Audio Indonesia
           </h1>
           <h2
-            class="text-[#d6d6d6] text-[16px] mt-2 sm:w-[95%] lg:w-[95%] break-words"
+            class="text-[#d6d6d6] text-[16px] mt-2 sm:w-[95%] lg:w-[95%] xl:w-[80%] break-words"
           >
             Nikmati ragam Podcast, Radio, Audiobook, dan Original Series yang
             seru dalam satu aplikasi konten audio karya anak bangsa.
           </h2>
           <button
             href="#_"
-            class="relative sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-4 sm:w-[56%] md:w-[40%] lg:w-[58%] font-bold bg-[#FAD810] text-[#212529]"
+            class="relative sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-4 sm:w-[56%] md:w-[40%] lg:w-[58%] xl:w-[53%] font-bold bg-[#FAD810] text-[#212529]"
           >
             <span class="absolute right-8">
               <svg
@@ -60,7 +60,12 @@
             </a>
           </div>
         </div>
-        <img src="../assets/home-1.png" alt="" class="lg:w-6/12 xl:w-full" />
+        <img
+          src="../assets/home-1.png"
+          alt=""
+          class="lg:w-6/12 xl:w-full"
+          title="Banner Header"
+        />
       </div>
     </div>
   </div>
