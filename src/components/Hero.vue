@@ -51,12 +51,14 @@
             <a
               href="https://play.google.com/store/apps/details?id=noice.app"
               target="_blank"
+              title="Google Play"
             >
               <img src="../assets/google-play-icon.svg" class="h-12" alt="" />
             </a>
             <a
               href="https://apps.apple.com/us/app/noice-radio-music-podcast/id1484372791?ls=1"
               target="_blank"
+              title="App Store"
             >
               <img src="../assets/appstore-icon.svg" class="h-12" alt="" />
             </a>
