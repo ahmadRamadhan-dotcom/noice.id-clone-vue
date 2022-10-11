@@ -13,6 +13,7 @@
       </button>
       <Discover />
       <Feature />
+      <EcoSystem />
     </main>
   </div>
 </template>
@@ -23,6 +24,7 @@ import Hero from "./components/Hero.vue";
 import NewInNoice from "./components/NewInNoice.vue";
 import Discover from "./components/Discover.vue";
 import Feature from "./components/Feature.vue";
+import EcoSystem from "./EcoSystem.vue";
 
 export default {
   name: "App",
@@ -38,6 +40,7 @@ export default {
     NewInNoice,
     Discover,
     Feature,
+    EcoSystem,
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
