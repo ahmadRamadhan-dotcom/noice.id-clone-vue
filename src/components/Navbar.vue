@@ -13,7 +13,7 @@
         </div>
 
         <ul
-          class="text-white whitespace-nowrap border-t-[0.5px] sm:border-t-[0.5px] lg:border-none overflow-auto bg-black sm:bg-black w-full absolute sm:absolute lg:static top-[64px] sm:top-[64px] py-3 sm:py-3 md:py-0 lg:top-0 xl:gap-3"
+          class="text-white whitespace-nowrap border-t-[0.5px] sm:border-t-[0.5px] lg:border-none overflow-auto bg-black sm:bg-black w-full absolute sm:absolute lg:static top-[64px] sm:top-[64px] py-3 sm:py-3 md:py-3 lg:py-0 lg:top-0 xl:gap-3"
         >
           <li class="font-semibold inline-block cursor-pointer text-[14px]">
             <button
@@ -23,24 +23,24 @@
             </button>
           </li>
           <li
-            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-32 md:w-36 xl:w-32 text-center hover:rounded-full relative sm:mt-4 lg:mt-[10px] dropdown cursor-pointer text-[14px]"
+            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-32 md:w-36 xl:w-32 text-center p-1 hover:rounded-full relative sm:mt-4 lg:mt-[0px] dropdown cursor-pointer text-[14px]"
           >
             Tentang Noice
           </li>
           <li
-            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-24 xl:w-24 text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-24 xl:w-24 text-center p-1 hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
             Info Terbaru
           </li>
 
           <li
-            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-36 md:w-40 xl:w-36 text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-36 md:w-40 xl:w-36 text-center p-1 hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
             Noicemaker Studio
           </li>
 
           <li
-            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-16 xl:w-16 text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-16 xl:w-16 text-center p-1 hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
             Iklan
           </li>

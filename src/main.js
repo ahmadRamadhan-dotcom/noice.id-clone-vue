@@ -12,6 +12,7 @@ import {
   faPlay,
   faArrowRight,
   faEnvelope,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
@@ -29,7 +30,8 @@ library.add(
   faFacebook,
   faYoutube,
   faTwitter,
-  faTiktok
+  faTiktok,
+  faXmark
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
