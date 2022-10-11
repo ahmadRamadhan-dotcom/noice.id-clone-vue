@@ -15,6 +15,14 @@ export default {
     >
       <div id="modal-container" class="sm:w-full lg:w-11/12 xl:w-[72%]">
         <div id="modal-body" class="">
+          <div id="close-modal" class="text-right mb-2">
+            <button
+              class="modal-default-button text-white"
+              @click="$emit('close')"
+            >
+              <font-awesome-icon icon="fa-solid fa-xmark" size="lg" />
+            </button>
+          </div>
           <iframe
             class="w-full sm:h-[370px] lg:h-[450px] xl:h-[500px]"
             src="https://www.youtube.com/embed/sxf7kgjtqoU"
@@ -23,18 +31,6 @@ export default {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-        </div>
-
-        <div
-          id="close-modal"
-          class="absolute sm:top-8 sm:right-1 xl:top-8 xl:right-60"
-        >
-          <button
-            class="modal-default-button text-white"
-            @click="$emit('close')"
-          >
-            <font-awesome-icon icon="fa-solid fa-xmark" size="lg" />
-          </button>
         </div>
       </div>
     </div>
