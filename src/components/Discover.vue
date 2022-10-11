@@ -34,31 +34,36 @@ const discoverData = [
     id: 1,
     title: "audio series",
     tooltip: "Audio Series",
-    image: "https://www.noice.id/wp-content/uploads/2022/06/series-couple.png",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/series-couple_sp47vd.png",
   },
   {
     id: 2,
     title: "live",
     tooltip: "Live",
-    image: "https://www.noice.id/wp-content/uploads/2022/06/live-couple.png",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/live-couple_n7pexk.png",
   },
   {
     id: 3,
     title: "noice podcast",
     tooltip: "Noice Podcast",
-    image: "https://www.noice.id/wp-content/uploads/2022/06/podcast-curly.png",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/podcast-curly_cznw0p.png",
   },
   {
     id: 4,
     title: "radio",
     tooltip: "Radio",
-    image: "https://www.noice.id/wp-content/uploads/2022/06/radio-boy.png",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/radio-boy_elpic2.png",
   },
   {
     id: 5,
     title: "audio book",
     tooltip: "Audio Book",
-    image: "https://www.noice.id/wp-content/uploads/2022/06/audiobook-girl.png",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/audiobook-girl_glsdtn.png",
   },
 ];
 </script>
