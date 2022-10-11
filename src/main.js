@@ -8,8 +8,28 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-import { faPlay, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPlay,
+  faArrowRight,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faInstagram,
+  faFacebook,
+  faYoutube,
+  faTwitter,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
 
-library.add(faPlay, faArrowRight);
+library.add(
+  faPlay,
+  faArrowRight,
+  faEnvelope,
+  faInstagram,
+  faFacebook,
+  faYoutube,
+  faTwitter,
+  faTiktok
+);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

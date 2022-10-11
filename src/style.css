@@ -12,6 +12,7 @@
 
 body {
   background-color: black;
+  font: 400 "Roboto", sans-serif;
 }
 
 body::-webkit-scrollbar {

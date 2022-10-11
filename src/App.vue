@@ -10,6 +10,7 @@
       <EcoSystem />
       <NewsAndStory />
     </main>
+    <Footer />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import Discover from "./components/Discover.vue";
 import Feature from "./components/Feature.vue";
 import EcoSystem from "./components/EcoSystem.vue";
 import NewsAndStory from "./components/NewsAndStory.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -34,6 +36,7 @@ export default {
     EcoSystem,
     BackToTop,
     NewsAndStory,
+    Footer,
   },
 };
 </script>

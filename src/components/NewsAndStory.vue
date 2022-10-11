@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center sm:mt-10 xl:mt-16 h-[10000px]">
+  <div class="flex justify-center sm:mt-10 xl:mt-16">
     <div class="sm:w-[85%] md:w-[95%] lg:w-[93%] xl:w-[85%] text-center">
       <span class="text-2xl text-white font-bold">Berita dan Cerita Noice</span>
       <p class="text-[#c2c2c2] sm:mt-4 xl:mt-2 text-[20px] font-normal">
