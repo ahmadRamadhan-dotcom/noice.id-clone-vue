@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center bg-[#202020]">
-    <div class="sm:w-[85%] xl:w-[85%] py-16">
+    <div class="sm:w-[85%] md:w-[95%] lg:w-[93%] xl:w-[85%] py-16">
       <div
         class="sm:flex sm:justify-center sm:flex-col-reverse lg:flex lg:gap-10 lg:justify-between lg:flex-row lg:items-center xl:flex xl:justify-between sm:items-start"
       >

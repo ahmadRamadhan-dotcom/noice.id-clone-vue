@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center mt-16 sm:mt-12 xl:mt-10">
     <div
-      class="sm:w-[85%] xl:w-[85%] text-center sm:text-center xl:text-center grid place-content-center place-items-center"
+      class="sm:w-[85%] md:w-[95%] lg:w-[93%] xl:w-[85%] text-center sm:text-center xl:text-center grid place-content-center place-items-center"
     >
       <span class="text-2xl text-white font-bold">Yang Baru di Noice</span>
       <p
