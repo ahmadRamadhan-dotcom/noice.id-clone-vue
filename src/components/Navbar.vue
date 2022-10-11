@@ -1,7 +1,7 @@
 <template>
   <header class="sticky bg-black top-0 z-30 flex justify-center py-2">
     <div
-      class="w-full sm:w-full lg:mx-5 xl:mx-0 lg:w-full xl:w-[85%] relative sm:relative lg:static pb-2 flex justify-between"
+      class="w-full sm:w-full lg:mx-5 xl:mx-0 lg:w-full xl:w-[85%] relative sm:relative lg:static xl:relative pb-2 flex justify-between"
     >
       <div class="mt-3 grid md:flex lg:justify-evenly">
         <div class="w-36 lg:mt-1">
@@ -13,7 +13,7 @@
         </div>
 
         <ul
-          class="text-white border-t-[0.5px] sm:border-t-[0.5px] lg:border-none overflow-auto bg-black sm:bg-black w-full absolute sm:absolute lg:static top-[64px] sm:top-[64px] py-2 sm:py-3 md:py-0 lg:top-0 flex gap-7"
+          class="text-white border-t-[0.5px] sm:border-t-[0.5px] lg:border-none overflow-auto bg-black sm:bg-black w-full absolute sm:absolute lg:static top-[64px] sm:top-[64px] py-2 sm:py-3 md:py-0 lg:top-0 flex xl:gap-3"
         >
           <li class="font-semibold cursor-pointer text-[14px]">
             <button
@@ -23,28 +23,27 @@
             </button>
           </li>
           <li
-            class="font-semibold sm:mt-4 lg:mt-[10px] dropdown cursor-pointer text-[14px]"
+            class="font-semibold hover:bg-[#202020] xl:w-32 text-center hover:rounded-full relative sm:mt-4 lg:mt-[10px] dropdown cursor-pointer text-[14px]"
           >
             Tentang Noice
           </li>
           <li
-            class="font-semibold sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+            class="font-semibold hover:bg-[#202020] xl:w-24 text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
             Info Terbaru
           </li>
           <li
-            class="font-semibold sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+            class="font-semibold hover:bg-[#202020] xl:w-36 text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
             Noicemaker Studio
           </li>
           <li
-            class="font-semibold sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+            class="font-semibold hover:bg-[#202020] xl:w-16 text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
             Iklan
           </li>
         </ul>
       </div>
-
       <button
         class="text-[.8rem] leading-9 flex place-items-center uppercase mt-3 mr-2 sm:mt-3 sm:mr-2 px-3 rounded-md bg-[#f8f9fa] font-bold"
       >

@@ -47,7 +47,7 @@
             :key="index"
           >
             <span
-              class="text-white font-bold sm:text-[20px] lg:text-[15px] xl:text-[18px]"
+              class="text-white cursor-pointer font-bold sm:text-[20px] lg:text-[15px] xl:text-[18px]"
               >{{ data.title }}</span
             >
             <ul
@@ -78,7 +78,7 @@
                         :key="index"
                         :href="data.link"
                         target="_blank"
-                        class="mt-5 text-center bg-white text-black sm:w-7 sm:h-7 lg:w-7 lg:h-7 rounded-full grid place-content-center place-items-center items-center"
+                        class="mt-5 text-center hover:bg-[#fad810] bg-white text-black sm:w-7 sm:h-7 lg:w-7 lg:h-7 rounded-full grid place-content-center place-items-center items-center"
                       >
                         <font-awesome-icon :icon="data.icon" />
                       </a>
