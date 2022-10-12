@@ -2,7 +2,7 @@
   <footer
     class="flex justify-center mt-12 sm:mt-10 xl:mt-16 bg-[#141414] pt-14 pb-52 sm:pt-14 sm:pb-48 lg:pt-10 lg:pb-32 xl:pt-14 xl:pb-32"
   >
-    <div class="w-11/12 sm:w-[85%] lg:w-[95%] xl:w-[80%]">
+    <div class="w-11/12 sm:w-[85%] lg:w-[95%] xl:w-[80%] 2xl:w-7/12">
       <div class="lg:flex xl:flex xl:justify-start">
         <div class="">
           <figure>
