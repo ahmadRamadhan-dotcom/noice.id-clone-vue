@@ -10,7 +10,7 @@
           class="inline-flex items-center justify-center w-14 h-14 sm:w-[60px] sm:h-[60px] xl:w-[73px] xl:h-[73px] text-base font-medium leading-6 text-white whitespace-no-wrap bg-[#FAD810] rounded-full shadow-sm"
           data-rounded="rounded-md"
         >
-          <img src="/play.png" alt="" class="w-5 sm:w-7 xl:w-9" />
+          <img src="/play.webp" alt="" class="w-5 sm:w-7 xl:w-9" />
         </button>
       </span>
     </div>
