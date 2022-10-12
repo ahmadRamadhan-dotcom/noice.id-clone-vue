@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center mt-16 sm:mt-16 lg:mt-6">
     <div
-      class="sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] 3xl:w-6/12 bg-[#141414] sm:bg-[#141414] lg:bg-[#202020] pb-8 sm:pt-6 sm:pb-5 md:pt-4 md:pb-4 lg:pt-16 lg:pb-14 sm:rounded-xl md:rounded-none lg:rounded-xl flex justify-center"
+      class="sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] bg-[#141414] sm:bg-[#141414] lg:bg-[#202020] pb-8 sm:pt-6 sm:pb-5 md:pt-4 md:pb-4 lg:pt-16 lg:pb-14 sm:rounded-xl md:rounded-none lg:rounded-xl flex justify-center"
     >
       <div
         class="grid place-content-center text-center sm:grid sm:place-content-center sm:place-items-center lg:flex w-[88%] lg:justify-center md:items-center"

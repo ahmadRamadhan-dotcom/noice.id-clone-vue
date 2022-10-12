@@ -3,7 +3,7 @@
     class="flex justify-center mt-12 sm:mt-10 xl:mt-16 bg-[#141414] pt-14 pb-52 sm:pt-14 sm:pb-48 lg:pt-10 lg:pb-32 xl:pt-14 xl:pb-32"
   >
     <div
-      class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] 3xl:w-6/12"
+      class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px]"
     >
       <div class="lg:flex xl:flex xl:justify-start">
         <div class="">

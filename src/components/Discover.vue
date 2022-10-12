@@ -3,7 +3,7 @@
     class="flex justify-center mt-12 sm:mt-10 xl:mt-12 bg-[#202020] py-10 sm:py-12 xl:pt-10 xl:pb-14"
   >
     <div
-      class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] 3xl:w-6/12 xl:mt-4"
+      class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] xl:mt-4"
     >
       <div class="xl:mt-4">
         <div>
