@@ -1,7 +1,7 @@
-# Vue 3 + Vite
+# Clone of website noice.id
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is repository for clone the biggest streaming podcast, audiobook, radio online in indonesia, using tailwind css and vue js 3
 
-## Recommended IDE Setup
+## LIVE
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+https://noiceid-clone-vue-tailwindcss.netlify.app/
