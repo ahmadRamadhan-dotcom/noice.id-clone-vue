@@ -16,6 +16,7 @@ export default {
       <div id="modal-container" class="w-11/12 sm:w-full lg:w-11/12 xl:w-[72%]">
         <div id="close-modal" class="text-right">
           <button
+            aria-label="close button for modal"
             class="modal-default-button text-white"
             @click="$emit('close')"
           >

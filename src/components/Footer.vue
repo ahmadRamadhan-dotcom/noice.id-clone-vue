@@ -12,6 +12,7 @@
             class="flex sm:justify-between mt-7 sm:mt-8 xl:mt-7 gap-4 sm:gap-0 lg:gap-5 xl:gap-6"
           >
             <a
+              aria-label="google play icon"
               href="https://play.google.com/store/apps/details?id=noice.app"
               target="_blank"
             >
@@ -22,6 +23,7 @@
               />
             </a>
             <a
+              aria-label="apple store icon"
               href="https://apps.apple.com/us/app/noice-radio-music-podcast/id1484372791?ls=1"
               target="_blank"
             >

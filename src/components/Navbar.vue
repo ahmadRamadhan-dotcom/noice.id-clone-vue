@@ -8,7 +8,7 @@
           <img
             class="w-28 absolute sm:absolute lg:static left-3 top-3 sm:left-3 sm:top-3"
             src="https://www.noice.id/wp-content/themes/zerif-lite/images/logo.svg"
-            alt=""
+            alt="noice offical logo"
           />
         </div>
 
@@ -17,6 +17,7 @@
         >
           <li class="font-semibold inline-block cursor-pointer text-[14px]">
             <button
+              aria-label="button for homepage"
               class="bg-[#202020] text-[#FAD810] py-1.5 sm:mx-3 sm:mt-2 lg:mt-1 px-2 rounded-lg"
             >
               Beranda

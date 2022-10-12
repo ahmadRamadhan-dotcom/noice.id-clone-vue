@@ -92,6 +92,7 @@ const discoverData = [
             class="text-[14px] xl:w-[45%] break-words tracking-[0.1rem] text-white uppercase font-bold leading-[26px]"
             >{{ data.title }}</span
           ><button
+            aria-label="discover button"
             class="inline-flex sm:mx-8 md:mx-auto sm:mt-2 items-center justify-center w-10 h-10 sm:w-12 sm:h-12 lg:w-10 lg:h-10 xl:w-9 xl:h-9 border-8 text-base font-medium xl:mt-2 leading-6 text-black whitespace-no-wrap bg-white rounded-full shadow-sm"
           >
             <img src="/play-silver.svg" alt="" class="xl:w-10" />
