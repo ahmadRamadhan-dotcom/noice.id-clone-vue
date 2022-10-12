@@ -1,15 +1,15 @@
 <template>
   <footer
-    class="flex justify-center sm:mt-10 xl:mt-16 bg-[#141414] sm:pt-14 sm:pb-48 lg:pt-10 lg:pb-32 xl:pt-14 xl:pb-32"
+    class="flex justify-center mt-12 sm:mt-10 xl:mt-16 bg-[#141414] pt-14 pb-52 sm:pt-14 sm:pb-48 lg:pt-10 lg:pb-32 xl:pt-14 xl:pb-32"
   >
-    <div class="sm:w-[85%] lg:w-[95%] xl:w-[80%]">
+    <div class="w-11/12 sm:w-[85%] lg:w-[95%] xl:w-[80%]">
       <div class="lg:flex xl:flex xl:justify-start">
         <div class="">
           <figure>
             <img src="/logo-footer.svg" alt="" />
           </figure>
           <div
-            class="flex sm:justify-between sm:mt-8 xl:mt-7 lg:gap-5 xl:gap-6"
+            class="flex sm:justify-between mt-7 sm:mt-8 xl:mt-7 gap-4 sm:gap-0 lg:gap-5 xl:gap-6"
           >
             <a
               href="https://play.google.com/store/apps/details?id=noice.app"
@@ -33,21 +33,21 @@
             </a>
           </div>
           <p
-            class="sm:hidden lg:block lg:mt-10 xl:mt-10 text-[13px] font-normal text-[#a3a3a3]"
+            class="hidden sm:hidden lg:block lg:mt-10 xl:mt-10 text-[13px] font-normal text-[#a3a3a3]"
           >
             © Noice 2022
           </p>
         </div>
         <div
-          class="lg:flex lg:justify-center lg:w-11/12 lg:gap-10 xl:flex sm:mt-10 lg:mt-0 xl:w-10/12 xl:justify-center xl:gap-[50px]"
+          class="lg:flex lg:justify-center lg:w-11/12 lg:gap-10 xl:flex mt-12 sm:mt-10 lg:mt-0 xl:w-10/12 xl:justify-center xl:gap-[50px]"
         >
           <div
-            class="relative sm:mb-8"
+            class="relative mb-7 sm:mb-8"
             v-for="(data, index) in footerData"
             :key="index"
           >
             <span
-              class="text-white cursor-pointer font-bold sm:text-[20px] lg:text-[15px] xl:text-[18px]"
+              class="text-white cursor-pointer font-bold text-xl sm:text-[20px] lg:text-[15px] xl:text-[18px]"
               >{{ data.title }}</span
             >
             <ul
@@ -63,7 +63,7 @@
                     icon="fa-solid fa-envelope"
                   />
                   <span
-                    class="sm:leading-[30px] md:leading-9"
+                    class="sm:leading-[30px] text-lg sm:text-[16px] md:leading-9"
                     :class="{ 'text-[#fad810]': data.id === 4 }"
                   >
                     {{ content }}
@@ -72,13 +72,13 @@
                     <span class="sm:text-xl xl:text-[17px] text-white font-bold"
                       >Ikuti Kami</span
                     >
-                    <div class="flex sm:gap-6 lg:gap-3 xl:gap-6">
+                    <div class="flex gap-5 sm:gap-6 lg:gap-3 xl:gap-6">
                       <a
                         v-for="(data, index) in socialMediaData"
                         :key="index"
                         :href="data.link"
                         target="_blank"
-                        class="mt-5 text-center hover:bg-[#fad810] bg-white text-black sm:w-7 sm:h-7 lg:w-7 lg:h-7 rounded-full grid place-content-center place-items-center items-center"
+                        class="mt-5 text-center hover:bg-[#fad810] bg-white text-black w-8 h-8 sm:w-7 sm:h-7 lg:w-7 lg:h-7 rounded-full grid place-content-center place-items-center items-center"
                       >
                         <font-awesome-icon :icon="data.icon" />
                       </a>

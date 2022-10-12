@@ -13,7 +13,7 @@ export default {
       id="modal-mask"
       class="fixed z-[9999] top-0 left-0 w-full h-full flex justify-center items-center"
     >
-      <div id="modal-container" class="sm:w-full lg:w-11/12 xl:w-[72%]">
+      <div id="modal-container" class="w-11/12 sm:w-full lg:w-11/12 xl:w-[72%]">
         <div id="close-modal" class="text-right">
           <button
             class="modal-default-button text-white"
@@ -56,6 +56,12 @@ export default {
 .modal-leave-to .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+@media screen and (min-width: 300px) {
+  iframe {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 640px) {

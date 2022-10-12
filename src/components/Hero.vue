@@ -20,7 +20,7 @@
           </span>
           <button
             href="#_"
-            class="relative mt-4 sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-10 sm:pl-4 w-10/12 mx-7 sm:mx-0 sm:w-[56%] md:w-[40%] lg:w-[58%] xl:w-[53%] font-bold bg-[#FAD810] text-[#212529]"
+            class="relative mt-4 sm:mt-3 md:mt-7 sm:mb-3 flex items-center rounded-md justify-center py-[15px] pl-10 sm:pl-4 w-10/12 mx-auto sm:mx-0 sm:w-[56%] md:w-[40%] lg:w-[58%] xl:w-[53%] font-bold bg-[#FAD810] text-[#212529]"
           >
             <span class="absolute right-7 sm:right-8">
               <svg

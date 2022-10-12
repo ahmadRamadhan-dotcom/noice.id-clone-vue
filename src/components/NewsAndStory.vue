@@ -1,20 +1,22 @@
 <template>
-  <div class="flex justify-center sm:mt-10 xl:mt-16">
-    <div class="sm:w-[85%] md:w-[95%] lg:w-[93%] xl:w-[85%] text-center">
+  <div class="flex justify-center mt-12 sm:mt-10 xl:mt-16">
+    <div
+      class="w-11/12 sm:w-[85%] md:w-[95%] lg:w-[93%] xl:w-[85%] text-center"
+    >
       <span class="text-2xl text-white font-bold">Berita dan Cerita Noice</span>
       <p class="text-[#c2c2c2] sm:mt-4 xl:mt-2 text-[20px] font-normal">
         Temukan berbagai liputan media tentang bagaimana Noice menginspirasi
         Indonesia
       </p>
       <div
-        class="sm:flex sm:flex-wrap sm:justify-center sm:justify-items-center sm:items-center sm:gap-[79px] md:gap-[129px] lg:gap-[45px] sm:mt-12 xl:flex xl:flex-wrap xl:justify-center xl:justify-items-center xl:items-center xl:text-center xl:mx-auto xl:gap-[90px] xl:mt-10"
+        class="grid grid-cols-3 place-content-center place-items-center sm:flex sm:flex-wrap sm:justify-center sm:justify-items-center sm:items-center gap-10 sm:gap-[79px] md:gap-[129px] lg:gap-[45px] mt-12 sm:mt-12 xl:flex xl:flex-wrap xl:justify-center xl:justify-items-center xl:items-center xl:text-center xl:mx-auto xl:gap-[90px] xl:mt-10"
       >
         <figure
           v-for="(data, index) in newsLogo"
           :key="index"
           class="sm:max-w-1/6 xl:max-w-1/6 items-center"
         >
-          <img :src="data.image" alt="" />
+          <img :src="data.image" alt="company logo" />
         </figure>
       </div>
     </div>
