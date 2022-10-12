@@ -4,7 +4,11 @@
       <div
         class="flex flex-col-reverse justify-center sm:flex sm:justify-center sm:flex-col-reverse lg:flex lg:gap-10 lg:justify-between lg:flex-row lg:items-center xl:flex xl:justify-between sm:items-start"
       >
-        <img src="/ecosystem.png" alt="" class="mt-7 sm:mt-7" />
+        <img
+          src="/ecosystem.png"
+          alt="grid image ecosystem"
+          class="mt-7 sm:mt-7"
+        />
         <div class="xl:w-6/12 text-center lg:text-start">
           <span class="text-white text-2xl font-bold"
             >Jadi Bagian Ekosistem Kreator Audio Terbesar di Indonesia</span

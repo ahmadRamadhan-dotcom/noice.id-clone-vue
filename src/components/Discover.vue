@@ -29,11 +29,11 @@
           </p>
         </div>
       </div>
-      <Swiper />
+      <SwiperDiscover />
     </div>
   </div>
 </template>
 
 <script setup>
-import Swiper from "./Swiper.vue";
+import SwiperDiscover from "./SwiperDiscover.vue";
 </script>

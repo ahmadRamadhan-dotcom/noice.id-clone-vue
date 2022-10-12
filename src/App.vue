@@ -24,6 +24,7 @@ import Feature from "./components/Feature.vue";
 import EcoSystem from "./components/EcoSystem.vue";
 import NewsAndStory from "./components/NewsAndStory.vue";
 import Footer from "./components/Footer.vue";
+import SwiperFeature from "./components/SwiperFeature.vue";
 
 export default {
   name: "App",
@@ -37,6 +38,7 @@ export default {
     BackToTop,
     NewsAndStory,
     Footer,
+    SwiperFeature,
   },
 };
 </script>

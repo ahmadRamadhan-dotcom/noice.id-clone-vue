@@ -1,20 +1,22 @@
 <template>
   <div class="flex xl:mt-10 xl:pt-5 justify-center">
-    <div class="w-[85%] text-center">
+    <div class="w-11/12 sm:w-[85%] md:w-[95%] mt-12 sm:mt-12 text-center">
       <span class="text-white text-2xl font-bold"
         >Banyak Fitur Bikin Kamu Terhibur</span
       >
       <div
-        class="sm:flex sm:flex-col sm:justify-center sm:items-center xl:grid xl:grid-cols-3 xl:place-content-center xl:place-items-center xl:mt-10"
+        class="hidden sm:hidden lg:grid lg:grid-cols-3 lg:place-content-center lg:place-items-center lg:mt-10"
       >
         <FeatureCard :featureData="featureData" />
       </div>
+      <SwiperFeature class="lg:hidden" :featureData="featureData" />
     </div>
   </div>
 </template>
 
 <script setup>
 import FeatureCard from "./FeatureCard.vue";
+import SwiperFeature from "./SwiperFeature.vue";
 const featureData = [
   {
     id: 1,

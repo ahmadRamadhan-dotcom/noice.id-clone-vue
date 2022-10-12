@@ -115,7 +115,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 export default defineComponent({
-  title: "Responsive breakpoints",
+  title: "Swiper Discover",
   components: {
     Swiper,
     SwiperSlide,

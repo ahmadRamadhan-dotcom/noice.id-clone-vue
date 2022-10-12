@@ -6,7 +6,7 @@
       <div class="lg:flex xl:flex xl:justify-start">
         <div class="">
           <figure>
-            <img src="/logo-footer.svg" alt="" />
+            <img src="/logo-footer.svg" alt="noice official logo" />
           </figure>
           <div
             class="flex sm:justify-between mt-7 sm:mt-8 xl:mt-7 gap-4 sm:gap-0 lg:gap-5 xl:gap-6"
@@ -18,7 +18,7 @@
               <img
                 src="../assets/google-play-icon.svg"
                 class="lg:h-8 xl:h-8"
-                alt=""
+                alt="google play icon"
               />
             </a>
             <a
@@ -28,7 +28,7 @@
               <img
                 src="../assets/appstore-icon.svg"
                 class="lg:h-8 xl:h-8"
-                alt=""
+                alt="apple store icon"
               />
             </a>
           </div>
