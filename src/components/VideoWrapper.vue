@@ -3,7 +3,7 @@
     <div
       class="w-11/12 sm:w-[85%] md:w-[95%] lg:w-[93%] cursor-pointer xl:w-[85%] relative"
     >
-      <img src="/videowrapper-banner.png" alt="" title="Yang Baru di Noice" />
+      <img src="/videowrapper-banner.webp" alt="" title="Yang Baru di Noice" />
       <span class="absolute top-[50%] left-[50%] mx-auto">
         <button
           @click="showModal = true"
