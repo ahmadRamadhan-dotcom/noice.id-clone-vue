@@ -15,22 +15,26 @@ export default {
     >
       <div id="modal-container" class="sm:w-full lg:w-11/12 xl:w-[72%]">
         <div id="modal-body" class="">
-          <div id="close-modal" class="text-right mb-2">
-            <button
-              class="modal-default-button text-white"
-              @click="$emit('close')"
-            >
-              <font-awesome-icon icon="fa-solid fa-xmark" size="lg" />
-            </button>
-          </div>
           <iframe
-            class="w-full sm:h-[370px] lg:h-[450px] xl:h-[500px]"
+            class="sm:h-[370px] lg:h-[450px] xl:h-[500px]"
             src="https://www.youtube.com/embed/sxf7kgjtqoU"
             title="Saatnya untuk Berani Bareng Noice !!"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
+        </div>
+
+        <div
+          id="close-modal"
+          class="absolute sm:top-8 sm:right-1 xl:top-8 xl:right-60"
+        >
+          <button
+            class="modal-default-button text-white"
+            @click="$emit('close')"
+          >
+            <font-awesome-icon icon="fa-solid fa-xmark" size="lg" />
+          </button>
         </div>
       </div>
     </div>
@@ -42,7 +46,6 @@ export default {
   background-color: rgba(0, 0, 0, 0.8);
   transition: opacity 0.3s ease-in-out;
 }
-
 #modal-container {
   /* width: 500px; */
   /* margin: 0px auto; */
@@ -52,21 +55,17 @@ export default {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
   transition: all 0.3s ease;
 }
-
 .modal-enter-from {
   opacity: 0;
 }
-
 .modal-leave-to {
   opacity: 0;
 }
-
 .modal-enter-from .modal-container,
 .modal-leave-to .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
 iframe {
   position: absolute;
   display: block;

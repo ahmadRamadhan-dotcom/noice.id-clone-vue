@@ -5,7 +5,7 @@
         >Banyak Fitur Bikin Kamu Terhibur</span
       >
       <div
-        class="grid grid-cols-3 place-content-center place-items-center xl:mt-10"
+        class="sm:flex sm:flex-col sm:justify-center sm:items-center xl:grid xl:grid-cols-3 xl:place-content-center xl:place-items-center xl:mt-10"
       >
         <FeatureCard :featureData="featureData" />
       </div>
