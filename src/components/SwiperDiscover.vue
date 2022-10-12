@@ -82,7 +82,7 @@ const discoverData = [
           'bg-[#1D3EB5]': data.id === 4,
           'bg-[#341C69]': data.id === 5,
         }"
-        class="sm:w-full md:w-[95%] xl:w-full relative cursor-pointer xl:mt-4 py-2 sm:flex sm:flex-wrap sm:justify-center md:justify-start h-[410px]"
+        class="sm:w-[200px] md:w-[95%] xl:w-full relative cursor-pointer xl:mt-4 py-2 sm:flex sm:flex-wrap sm:justify-center md:justify-start h-[410px]"
         :title="data.tooltip"
       >
         <div

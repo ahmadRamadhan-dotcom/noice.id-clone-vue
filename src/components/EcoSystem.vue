@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center bg-[#202020]">
     <div
-      class="w-11/12 sm:w-[85%] md:w-[95%] lg:w-[93%] xl:w-[85%] 2xl:w-7/12 3xl:w-6/12 py-16"
+      class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] 3xl:w-6/12 py-16"
     >
       <div
         class="flex flex-col-reverse justify-center sm:flex sm:justify-center sm:flex-col-reverse lg:flex lg:gap-10 lg:justify-between lg:flex-row lg:items-center xl:flex xl:justify-between sm:items-start"

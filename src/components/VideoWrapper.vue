@@ -1,7 +1,7 @@
 <template>
   <div class="flex relative justify-center mt-10">
     <div
-      class="w-11/12 sm:w-[85%] md:w-[95%] lg:w-[93%] cursor-pointer xl:w-[85%] 2xl:w-7/12 3xl:w-6/12 relative"
+      class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] cursor-pointer xl:w-[1140px] 2xl:w-[1160px] 3xl:w-6/12 relative"
     >
       <img src="/videowrapper-banner.webp" alt="" title="Yang Baru di Noice" />
       <span class="absolute top-[50%] left-[50%] mx-auto">
