@@ -5,35 +5,35 @@ const discoverData = [
     title: "audio series",
     tooltip: "Audio Series",
     image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/series-couple_sp47vd.png",
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/series-couple_sp47vd_hy0z4h.webp",
   },
   {
     id: 2,
     title: "live",
     tooltip: "Live",
     image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/live-couple_n7pexk.png",
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/live-couple_n7pexk_pp2cqm.webp",
   },
   {
     id: 3,
     title: "noice podcast",
     tooltip: "Noice Podcast",
     image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/podcast-curly_cznw0p.png",
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/podcast-curly_cznw0p_c7lkjf.webp",
   },
   {
     id: 4,
     title: "radio",
     tooltip: "Radio",
     image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/radio-boy_elpic2.png",
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/radio-boy_elpic2_rbgysk.webp",
   },
   {
     id: 5,
     title: "audio book",
     tooltip: "Audio Book",
     image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665456235/audiobook-girl_glsdtn.png",
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/audiobook-girl_glsdtn_o9zpca.webp",
   },
 ];
 </script>
