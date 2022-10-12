@@ -1,7 +1,7 @@
 <template>
   <div class="flex xl:mt-10 xl:pt-5 justify-center">
     <div
-      class="w-11/12 sm:w-[85%] md:w-[95%] 2xl:w-7/12 mt-12 sm:mt-12 text-center"
+      class="w-11/12 sm:w-[85%] md:w-[95%] 2xl:w-7/12 3xl:w-6/12 mt-12 sm:mt-12 text-center"
     >
       <span class="text-white text-2xl font-bold"
         >Banyak Fitur Bikin Kamu Terhibur</span

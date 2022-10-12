@@ -1,7 +1,7 @@
 <template>
   <header class="sticky bg-black top-0 z-30 flex justify-center py-3">
     <div
-      class="w-full sm:w-full lg:mx-5 xl:mx-0 lg:w-full xl:w-[85%] 2xl:w-7/12 relative sm:relative lg:static xl:relative pb-2 flex justify-between"
+      class="w-full sm:w-full lg:mx-5 xl:mx-0 lg:w-full xl:w-[85%] 2xl:w-7/12 3xl:w-6/12 relative sm:relative lg:static xl:relative pb-2 flex justify-between"
     >
       <div class="mt-3 grid md:flex lg:justify-evenly">
         <div class="w-36 lg:mt-1">

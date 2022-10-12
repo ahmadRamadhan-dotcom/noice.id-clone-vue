@@ -9,7 +9,7 @@
         Indonesia
       </p>
       <div
-        class="grid grid-cols-3 place-content-center place-items-center sm:flex sm:flex-wrap sm:justify-center sm:justify-items-center sm:items-center gap-10 sm:gap-[79px] md:gap-[129px] lg:gap-[45px] mt-12 sm:mt-12 xl:flex xl:flex-wrap xl:justify-center xl:justify-items-center xl:items-center xl:text-center xl:mx-auto xl:gap-[90px] 2xl:gap-[80px] xl:mt-10"
+        class="grid grid-cols-3 place-content-center place-items-center sm:flex sm:flex-wrap sm:justify-center sm:justify-items-center sm:items-center gap-10 sm:gap-[79px] md:gap-[129px] lg:gap-[45px] mt-12 sm:mt-12 xl:flex xl:flex-wrap xl:justify-center xl:justify-items-center xl:items-center xl:text-center xl:mx-auto xl:gap-[90px] 2xl:gap-[80px] 3xl:gap-[140px] xl:mt-10"
       >
         <figure
           v-for="(data, index) in newsLogo"
