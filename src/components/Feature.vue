@@ -3,9 +3,9 @@
     <div
       class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] mt-12 sm:mt-12 text-center"
     >
-      <span class="text-white text-2xl font-bold"
-        >Banyak Fitur Bikin Kamu Terhibur</span
-      >
+      <span class="text-white text-2xl font-bold">{{
+        $t("feature.title")
+      }}</span>
       <div
         class="hidden sm:hidden lg:grid lg:grid-cols-3 lg:place-content-center lg:place-items-center lg:mt-10"
       >

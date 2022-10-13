@@ -20,30 +20,31 @@
               aria-label="button for homepage"
               class="bg-[#202020] text-[#FAD810] py-1.5 sm:mx-3 sm:mt-2 lg:mt-1 px-2 rounded-lg"
             >
-              Beranda
+              {{ $t("navbar.home") }}
             </button>
           </li>
           <li
             class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-32 md:w-36 xl:w-32 text-center p-1 hover:rounded-full relative sm:mt-4 lg:mt-[0px] dropdown cursor-pointer text-[14px]"
           >
-            Tentang Noice
+            {{ $t("navbar.about") }}
           </li>
           <li
             class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-24 xl:w-24 text-center p-1 hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
-            Info Terbaru
+            {{ $t("navbar.latestInfo") }}
           </li>
 
           <li
             class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-36 md:w-40 xl:w-36 text-center p-1 hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
-            Noicemaker Studio
+            {{ $t("navbar.noiceMaker") }}
           </li>
 
           <li
-            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-16 xl:w-16 text-center p-1 hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+            :class="$i18n.locale === 'en' ? 'sm:w-[120px] xl:w-32' : 'xl:w-16'"
+            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] sm:w-16 text-center p-1 hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
           >
-            Iklan
+            {{ $t("navbar.advertisement") }}
           </li>
           <li
             class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
@@ -61,9 +62,11 @@
           icon="fa-solid fa-play"
         />
         <span class="bg-[#f8f9fa] hide tracking-[2px] text-[#212529]">
-          putar konten
+          {{ $t("navbar.playContent.lg") }}
         </span>
-        <span class="bg-[#f8f9fa] lg-hide text-[#212529]"> kunjungi app </span>
+        <span class="bg-[#f8f9fa] lg-hide text-[#212529]">
+          {{ $t("navbar.playContent.md") }}
+        </span>
       </button>
     </div>
   </header>

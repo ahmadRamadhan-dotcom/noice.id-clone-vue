@@ -10,13 +10,12 @@
           class="sm:grid sm:place-content-center sm:place-items-center sm:text-center lg:text-left lg:grid lg:place-content-start lg:place-items-start"
         >
           <h1 class="mt-7 sm:mt-0 text-white font-bold text-[34px]">
-            Rumah Konten Audio Indonesia
+            {{ $t("hero.title") }}
           </h1>
           <span
             class="text-[#d6d6d6] text-[16px] mt-2 sm:w-[95%] lg:w-[95%] xl:w-[80%] break-words"
           >
-            Nikmati ragam Podcast, Radio, Audiobook, dan Original Series yang
-            seru dalam satu aplikasi konten audio karya anak bangsa.
+            {{ $t("hero.subTitle") }}
           </span>
           <button
             aria-label="hero button for listening now"
@@ -42,11 +41,11 @@
 
             <span
               class="relative w-full text-left text-sm uppercase tracking-[0.2em]"
-              >dengar sekarang</span
+              >{{ $t("hero.listen") }}</span
             >
           </button>
           <p class="hidden sm:hidden lg:block text-[#d6d6d6] mt-8">
-            Tersedia juga di
+            {{ $t("hero.available") }}
           </p>
           <div class="hidden sm:hidden lg:flex xl:flex gap-1 mt-7">
             <a

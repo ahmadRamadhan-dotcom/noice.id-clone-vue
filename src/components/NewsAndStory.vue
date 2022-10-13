@@ -3,10 +3,11 @@
     <div
       class="w-11/12 sm:w-[530px] md:w-[720px] lg:w-[970px] xl:w-[1140px] 2xl:w-[1160px] text-center"
     >
-      <span class="text-2xl text-white font-bold">Berita dan Cerita Noice</span>
+      <span class="text-2xl text-white font-bold">{{
+        $t("newsAndStory.title")
+      }}</span>
       <p class="text-[#c2c2c2] sm:mt-4 xl:mt-2 text-[20px] font-normal">
-        Temukan berbagai liputan media tentang bagaimana Noice menginspirasi
-        Indonesia
+        {{ $t("newsAndStory.subTitle") }}
       </p>
       <div
         class="grid grid-cols-3 place-content-center place-items-center sm:flex sm:flex-wrap sm:justify-center sm:justify-items-center sm:items-center gap-10 sm:gap-[79px] md:gap-[129px] lg:gap-[50px] mt-12 sm:mt-12 xl:flex xl:flex-wrap xl:justify-center xl:justify-items-center xl:items-center xl:text-center xl:mx-auto xl:gap-[80px] 2xl:gap-[80px] xl:mt-10"
