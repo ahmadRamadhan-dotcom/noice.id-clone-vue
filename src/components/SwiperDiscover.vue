@@ -1,43 +1,3 @@
-<script setup lang="ts">
-const discoverData = [
-  {
-    id: 1,
-    title: "audio series",
-    tooltip: "Audio Series",
-    image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/series-couple_sp47vd_hy0z4h.webp",
-  },
-  {
-    id: 2,
-    title: "live",
-    tooltip: "Live",
-    image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/live-couple_n7pexk_pp2cqm.webp",
-  },
-  {
-    id: 3,
-    title: "noice podcast",
-    tooltip: "Noice Podcast",
-    image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/podcast-curly_cznw0p_c7lkjf.webp",
-  },
-  {
-    id: 4,
-    title: "radio",
-    tooltip: "Radio",
-    image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/radio-boy_elpic2_rbgysk.webp",
-  },
-  {
-    id: 5,
-    title: "audio book",
-    tooltip: "Audio Book",
-    image:
-      "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/audiobook-girl_glsdtn_o9zpca.webp",
-  },
-];
-</script>
-
 <template>
   <swiper
     class="swiper w-11/12 sm:w-[85%] md:w-[95%] lg:w-[93%] xl:w-full mt-10"
@@ -108,15 +68,55 @@ const discoverData = [
   </swiper>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script>
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import "swiper/css/pagination";
 
-export default defineComponent({
+export default {
   title: "Swiper Discover",
+  data() {
+    return {
+      discoverData: [
+        {
+          id: 1,
+          title: "audio series",
+          tooltip: "Audio Series",
+          image:
+            "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/series-couple_sp47vd_hy0z4h.webp",
+        },
+        {
+          id: 2,
+          title: "live",
+          tooltip: "Live",
+          image:
+            "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/live-couple_n7pexk_pp2cqm.webp",
+        },
+        {
+          id: 3,
+          title: "noice podcast",
+          tooltip: "Noice Podcast",
+          image:
+            "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/podcast-curly_cznw0p_c7lkjf.webp",
+        },
+        {
+          id: 4,
+          title: "radio",
+          tooltip: "Radio",
+          image:
+            "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/radio-boy_elpic2_rbgysk.webp",
+        },
+        {
+          id: 5,
+          title: "audio book",
+          tooltip: "Audio Book",
+          image:
+            "https://res.cloudinary.com/dk7urhntn/image/upload/v1665558902/audiobook-girl_glsdtn_o9zpca.webp",
+        },
+      ],
+    };
+  },
   components: {
     Swiper,
     SwiperSlide,
@@ -126,5 +126,5 @@ export default defineComponent({
       modules: [Pagination],
     };
   },
-});
+};
 </script>

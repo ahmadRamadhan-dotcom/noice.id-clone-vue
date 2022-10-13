@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Noice",
+    "latestInfo": "Latest Info",
+    "noiceMaker": "Noicemaker Studio",
+    "advertisement": "Advertisement",
+    "playContent": {
+      "lg": "Play Content",
+      "md": "Visit The App"
+    }
+  },
+  "hero": {
+    "title": "Home of Indonesian Audio Content",
+    "subTitle": "Enjoy a variety of Podcasts, Radio, Audiobooks, and Original Series in one audio content app by the nation's children.",
+    "listen": "Listen Now",
+    "available": "Also available in"
+  },
+  "newInNoice": {
+    "title": "What's New In Noice",
+    "subTitle": "Find all the new things about Noice, from content schedule updates to a variety of featured content."
+  },
+  "discover": {
+    "title": "Pick whichever you like and listen to them all",
+    "subTitle": "Find a variety of audio content that can be enjoyed anytime, anywhere",
+    "seeAll": "see all"
+  },
+  "feature": {
+    "title": "Lots of Features to Keep You Entertained"
+  },
+  "ecosystem": {
+    "title": "Become a Part of the Largest Audio Creator Ecosystem in Indonesia",
+    "subTitle": "Now is the right time to have your work lined up with Arief Muhammad and Tretan Muslim content",
+    "seeDetail": "see details"
+  },
+  "newsAndStory": {
+    "title": "News and Stories Noice",
+    "subTitle": "Discover media coverage of how Noice inspiring Indonesia"
+  },
+  "footer": {}
+}

@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import "./style.css";
 import App from "./App.vue";
+import i18n from "./locales/i18n";
 
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -36,4 +37,7 @@ library.add(
   faChevronRight
 );
 
-createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
+createApp(App)
+  .use(i18n)
+  .component("font-awesome-icon", FontAwesomeIcon)
+  .mount("#app");

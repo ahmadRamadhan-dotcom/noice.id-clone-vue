@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang Noice",
+    "latestInfo": "Info Terbaru",
+    "noiceMaker": "Nociemaker Studio",
+    "advertisement": "Iklan",
+    "playContent": {
+      "lg": "Putar Kontent",
+      "md": "Kunjungi App"
+    }
+  },
+  "hero": {
+    "title": "Rumah Konten Audio Indonesia",
+    "subTitle": "Nikmati ragam Podcast, Radio, Audiobook, dan Original Series yang seru dalam satu aplikasi konten audio karya anak bangsa",
+    "listen": "Dengar Sekarang",
+    "available": "Tersedia juga di"
+  },
+  "newInNoice": {
+    "title": "Yang Baru di Noice",
+    "subTitle": "Temukan semua hal baru seputar Noice, dari update jadwal konten hingga beragam konten unggulan"
+  },
+  "discover": {
+    "title": "Pilih yang Kamu Suka dan Dengerin Semuanya!",
+    "subTitle": "Temukan beragam konten audio yang bisa dinikmati kapan aja, dimana aja",
+    "seeAll": "lihat semua"
+  },
+  "feature": {
+    "title": "Banyak Fitur Bikin Kamu Terhibur"
+  },
+  "ecosystem": {
+    "title": "Jadi Bagian Ekosistem Kreator Audio Terbesar di Indonesia",
+    "subTitle": "Sekarang adalah waktu yang tepat untuk membuat karya mu berjajar bersama konten Arief Muhammad dan Tretan Muslim",
+    "seeDetail": "lihat detial"
+  },
+  "newsAndStory": {
+    "title": "Berita dan Cerita Noice",
+    "subTitle": "Temukan berbagai liputan tentang bagaimana Noice menginspira Indonesia"
+  },
+  "footer": {}
+}

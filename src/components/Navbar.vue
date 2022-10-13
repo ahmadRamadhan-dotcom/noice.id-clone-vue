@@ -45,6 +45,11 @@
           >
             Iklan
           </li>
+          <li
+            class="font-semibold ml-4 sm:ml-0 inline-block hover:bg-[#202020] text-center hover:rounded-full sm:mt-4 lg:mt-[10px] cursor-pointer text-[14px]"
+          >
+            <LanguageSwitcher />
+          </li>
         </ul>
       </div>
       <button
@@ -63,6 +68,10 @@
     </div>
   </header>
 </template>
+
+<script setup>
+import LanguageSwitcher from "./LanguageSwitcher.vue";
+</script>
 
 <style scoped>
 @media screen and (max-width: 1024px) {
